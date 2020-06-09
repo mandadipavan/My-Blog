@@ -44,3 +44,7 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
+.content h3 a{
+    margin-left:270px;
+    font-size: 20px;
+}
