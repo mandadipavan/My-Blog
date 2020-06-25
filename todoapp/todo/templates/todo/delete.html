@@ -1,0 +1,6 @@
+<h1>Delete HTML</h1>
+<h2>Do you want to delete ?</h2>
+
+<form method="POST" action="" style="display: inline; margin-right: 30px;">{% csrf_token %}
+	<input type="submit" value="Yes">
+</form><a href="{% url 'TodoView' %}" style="text-decoration: none;">Cancel</a>
